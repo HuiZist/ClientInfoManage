@@ -1,0 +1,107 @@
+#proceEditor .container{
+	width:900px;
+}
+
+#topic .topicLink{
+	background: #000;
+    color:#fff;
+}
+#topic .proceLink{
+	background: #fff;
+    color:#000;
+}
+#topic .proceLink:hover{
+	background: #636b6f;
+    color:#fff;
+}
+#topic .topicList{
+	margin-top: 10px;
+}
+#topic .topicTitle{
+	background: #000;
+	color:#fff;
+	padding: 10px;
+	border-radius: 2px;
+	line-height: 20px;
+}
+#topic .topicPanel{
+	background:#f1f1f1;	
+	margin-bottom: 10px;
+}
+#topic .topicPanel .panel-collapse{
+	box-shadow:2px 2px 3px #aaaaaa;
+	background: #fff;
+}
+#topic .topicProduct{
+	width:150px;
+	display: inline-block;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#topic .topicType{
+	width:230px;
+	display: inline-block;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#topic .topicSource{
+	width:200px;
+	display: inline-block;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#topic .topicPname{
+	width:150px;
+	display: inline-block;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 14px;
+	float: right; 
+}
+#topic .panel .topicPname{
+	padding-left: 20px;
+}
+#topic .topicCtime{
+	width:170px;
+	display: inline-block;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 14px;
+	float: right; 
+}
+#topic .topicUtime{
+	width:170px;
+	display: inline-block;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 14px;
+	float: right; 
+}
+#topic .topicList .panel-heading:hover{
+	background: #636b6f;
+	color:#fff;
+}
+#topic .topicList .panel-title>a:hover{
+	text-decoration: none;
+}
+#topic .topicList .panel-title>a:link{
+	text-decoration: none;
+}
+#topic #proCreate{
+	float:right;
+	margin-left: 20px;
+}
+#topic .proceList .panel-body img{
+	max-width: 100%;
+	max-height: 100%;
+}
+#topic .topicBtn{
+	margin-top: 10px;
+	float: right;
+}

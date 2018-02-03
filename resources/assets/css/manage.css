@@ -1,0 +1,157 @@
+#conBEditor .container{
+	width:700px;
+}
+
+#conSEditor .container{
+	width:700px;
+}
+
+#contactType .contactLink{
+	background: #000;
+    color:#fff;
+}
+#contactType .statLink{
+	background: #fff;
+    color:#000;
+}
+#contactType .statLink:hover{
+	background: #636b6f;
+    color:#fff;
+}
+#contactType .titleLink{
+	background: #fff;
+    color:#000;
+}
+#contactType .titleLink:hover{
+	background: #636b6f;
+    color:#fff;
+}
+#contactType .container{
+	width:700px;
+}
+#contactType .panel-heading{
+	background: #000;
+	color:#fff;
+}
+#contactType .panel-body{
+	padding:0;
+}
+#contactType .list-group{
+	margin-bottom: 0;
+}
+#contactType .list-group>li{
+	border-left: 0;
+	border-right: 0;
+	padding: 0;
+}
+#contactType .list-group>li>a{
+	width:100%;
+	border-radius: 0;
+	background: #eee;
+	color:#000;
+	border:0;
+	font-size: 18px;
+}
+#contactType .well{
+	background: #fff;
+	border-radius: 0;
+	margin-bottom: 0;
+	border:0;
+	padding:0;
+	text-align: center;
+	font-size: 16px;
+}
+#contactType .well li{
+	line-height: 40px;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	padding-left:10px;
+	padding-right: 10px; 
+}
+#contactType .stypeAdd{
+	width: 30%;
+	border-radius: 0;
+	display: inline-block;
+}
+#contactType .btypeAdd{
+	width: 100%;
+	border-radius: 0;
+}
+#contactType .stypeDel{
+	float:right;
+}
+
+#memberShow .panel-heading{
+	background: #000;
+	color:#fff;
+}
+#memberShow table td{
+	line-height: 30px;
+}
+
+#statdef .statLink{
+	background: #000;
+    color:#fff;
+}
+#statdef .contactLink{
+	background: #fff;
+    color:#000;
+}
+#statdef .contactLink:hover{
+	background: #636b6f;
+    color:#fff;
+}
+#statdef .titleLink{
+	background: #fff;
+    color:#000;
+}
+#statdef .titleLink:hover{
+	background: #636b6f;
+    color:#fff;
+}
+#statdef .container{
+	width:1000px;
+}
+#statdef .panel-heading{
+	background: #000;
+	color:#fff;
+}
+#statdef input{
+	width:150px;
+}
+#statdef .statdefSub{
+	width: 100px;
+	margin: 10px;
+}
+
+#titleShow .container{
+	width: 1000px;
+}
+#titleShow .panel-heading{
+	background: #000;
+	color:#fff;
+}
+#titleShow .titleLink{
+	background: #000;
+    color:#fff;
+}
+#titleShow .contactLink{
+	background: #fff;
+    color:#000;
+}
+#titleShow .contactLink:hover{
+	background: #636b6f;
+    color:#fff;
+}
+#titleShow .statLink{
+	background: #fff;
+    color:#000;
+}
+#titleShow .statLink:hover{
+	background: #636b6f;
+    color:#fff;
+}
+#titleShow .input-group{
+	margin-bottom:10px; 
+}

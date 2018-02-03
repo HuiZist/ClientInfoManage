@@ -1,0 +1,108 @@
+#proceEditor .container{
+	width:900px;
+}
+
+#procedure .proceLink{
+	background: #000;
+    color:#fff;
+}
+#procedure .topicLink{
+	background: #fff;
+    color:#000;
+}
+#procedure .topicLink:hover{
+	background: #636b6f;
+    color:#fff;
+}
+#procedure .proceList{
+	margin-top: 10px;
+}
+#procedure .procePanel{
+	background:#f1f1f1;	
+	margin-bottom: 10px;
+}
+#procedure .procePanel .panel-collapse{
+	box-shadow:2px 2px 3px #aaaaaa;
+	background: #fff;
+}
+#procedure .proceBType{
+	width:200px;
+	display: inline-block;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#procedure .proceSType{
+	width:300px;
+	display: inline-block;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#procedure .proceName{
+	width:170px;
+	display: inline-block;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 14px;
+	float: right; 
+}
+#procedure .panel .proceName{
+	padding-left:20px;
+}
+#procedure .proceCtime{
+	width:170px;
+	display: inline-block;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 14px;
+	float: right; 
+}
+#procedure .proceUtime{
+	width:170px;
+	display: inline-block;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 14px;
+	float: right; 
+}
+#procedure .proceTitle{
+	background: #000;
+	color:#fff;
+	padding: 10px;
+	border-radius: 2px;
+	line-height: 20px;
+}
+#procedure .proceList .panel-heading:hover{
+	background: #636b6f;
+	color:#fff;
+}
+#procedure .proceList .panel-title>a:hover{
+	text-decoration: none;
+}
+#procedure .proceList .panel-title>a:link{
+	text-decoration: none;
+}
+#procedure #proCreate{
+	float:right;
+	margin-left: 20px;
+}
+#procedure .proceList .panel-body img{
+	max-width: 100%;
+	max-height: 100%;
+}
+#procedure .proceBtn{
+	margin-top: 10px;
+	float: right;
+}
+#procedure .proSuper{
+	text-align: right;
+}
+#procedure .proSuper>span{
+	display: inline-block;
+	width:200px;
+	color:#7da8c3;
+}

@@ -1,0 +1,53 @@
+#btnSpread{
+	width: 50px;
+	height: 50px;
+	background: #c33;
+	color: #fff;
+	border:none;
+	border-radius: 25px;
+	box-shadow: 0 3px 6px 0 #888888;
+	outline:none;
+	position:absolute;
+	right:-60px;
+	top:10px;
+}
+#client .clientTable{
+	margin-top: 10px;
+	position:relative;
+}
+#client .clientTable .clientTableContent{
+	overflow-x:auto; 
+}
+#client .tableSpread{
+	position:relative;
+	right: 100px;
+	background: white;
+}
+#client .clientTable table tr th{
+	background: #c33;
+	color:#fff;
+	font-weight:normal;
+	text-align: center;
+	vertical-align: middle;
+}
+#client .clientTable td>div{
+	overflow:hidden;
+	text-overflow:ellipsis;  
+    -o-text-overflow:ellipsis;  
+    -moz-text-overflow: ellipsis;  
+    -webkit-text-overflow: ellipsis; 
+	white-space: nowrap;
+}
+#client .cliTabC{
+	width: 45px;
+}
+#client .clientTruncate{
+	border-radius:0;
+}
+#client #trunSwitch{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#client .clientTable .form-group{
+	margin-top: 10px;
+}

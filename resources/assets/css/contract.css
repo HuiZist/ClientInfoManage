@@ -1,0 +1,75 @@
+#contract .contractTable{
+	margin-top: 10px;
+}
+#contract .contractTable .contractTableContent{
+	overflow-x:auto;
+}
+#contract .contractTable table tr th{
+	background: #c33;
+	color:#fff;
+	font-weight:normal;
+	text-align: center;
+	vertical-align: middle;
+}
+#contract .contractTable table{
+	position: relative;
+}
+#contract .contractLocation{
+	position: fixed;
+	right: 20px;
+	top:120px;
+}
+#contract .contractTableContent td>div{
+	overflow:hidden;
+	text-overflow:ellipsis;  
+    -o-text-overflow:ellipsis;  
+    -moz-text-overflow: ellipsis;  
+    -webkit-text-overflow: ellipsis; 
+	white-space: nowrap;
+}
+#contract .contractA{
+}
+#contract .contractB{
+}
+#contract .contractC{
+}
+#contract .contractD{
+	width: 140px;
+}
+#contract .contractE{
+	width: 170px;
+}
+#contract .contractF{
+	width: 30px;
+}
+#contract .contractG{
+	width: 100px;
+}
+#contract .contractH{
+	width: 50px;
+}
+#contract .contractOperatorAccount{
+}
+#contract .contractOperatorName{
+}
+#contract .statTable{
+	padding:0;
+}
+#contract .statTable table tr th{
+	background: #3097D1;
+	color:#fff;
+	font-weight:normal;
+	text-align: center;
+	vertical-align: middle;
+}
+#contract .statTable table tr td{
+	text-align: center;
+	vertical-align: middle;
+}
+#contract #message{
+	position: absolute;
+	left:270px;
+	width: 700px;
+	z-index: 100;
+	display: none;
+}
