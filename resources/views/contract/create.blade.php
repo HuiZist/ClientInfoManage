@@ -33,6 +33,7 @@
 							{!!  $btype->name.'（'.$stype->name.'）' !!}
 						</option>
 					@endforeach
+					</optgroup>
 				@endforeach
 				</select>
 			</div>

@@ -114,6 +114,7 @@
 									</option>
 									@endif
 								@endforeach
+								</optgroup>
 							@endforeach
 						</select>
 					</div>
