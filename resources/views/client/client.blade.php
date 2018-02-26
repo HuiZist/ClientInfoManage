@@ -108,7 +108,7 @@
 
 				    <div class="form-group">
 					    <div class="input-group">
-					    	<span class="input-group-addon" id="basic-addonF">开发/服务</span>
+					    	<span class="input-group-addon" id="basic-addonF">{{ $clientTitles->F }}</span>
 						    <select class="form-control" name="F" aria-describedby="basic-addonF">
 						    	<option value="">不筛选</option>
 						    	<option value="服务">服务</option>
@@ -118,19 +118,19 @@
 						    </select>
 					    </div>
 					    <div class="input-group">
-						    <span class="input-group-addon" id="basic-addonG">提成比例</span>
+						    <span class="input-group-addon" id="basic-addonG">{{ $clientTitles->G }}</span>
 						    <input type="number" name="Gs" class="form-control" placeholder=">" 
 						    aria-describedby="basic-addonG" step="any" value="{!! isset($request)?$request->get('Gs'):'' !!}">
 					    </div>
 					    <input type="number" name="Ge" class="form-control" placeholder="<" step="any" 
 					    value="{!! isset($request)?$request->get('Ge'):'' !!}">
-					    <input type="text" name="H" class="form-control" placeholder="风险等级" 
+					    <input type="text" name="H" class="form-control" placeholder="{{ $clientTitles->H }}" 
 					    value="{!! isset($request)?$request->get('H'):'' !!}">
 				    </div>
 
 				    <div class="form-group">
 					    <div class="input-group">
-					    	<span class="input-group-addon" id="basic-addonI">新版App</span>
+					    	<span class="input-group-addon" id="basic-addonI">{{ $clientTitles->I }}</span>
 						    <select class="form-control" name="I" aria-describedby="basic-addonI">
 						    	<option value="">不筛选</option>
 						    	<option value="是">是</option>
@@ -138,7 +138,7 @@
 						    </select>
 					    </div>
 					    <div class="input-group">
-					    	<span class="input-group-addon" id="basic-addonJ">创业板</span>
+					    	<span class="input-group-addon" id="basic-addonJ">{{ $clientTitles->J }}</span>
 						    <select class="form-control" name="J" aria-describedby="basic-addonJ">
 						    	<option value="">不筛选</option>
 						    	<option value="是">是</option>
@@ -146,7 +146,7 @@
 						    </select>
 					    </div>
 					    <div class="input-group">
-					    	<span class="input-group-addon" id="basic-addonK">投顾锦囊</span>
+					    	<span class="input-group-addon" id="basic-addonK">{{ $clientTitles->K }}</span>
 						    <select class="form-control" name="K" aria-describedby="basic-addonK">
 						    	<option value="">不筛选</option>
 						    	<option value="是">是</option>
@@ -154,7 +154,7 @@
 						    </select>
 					    </div>
 					    <div class="input-group">
-					    	<span class="input-group-addon" id="basic-addonL">level2</span>
+					    	<span class="input-group-addon" id="basic-addonL">{{ $clientTitles->L }}</span>
 						    <select class="form-control" name="L" aria-describedby="basic-addonL">
 						    	<option value="">不筛选</option>
 						    	<option value="是">是</option>
@@ -162,7 +162,7 @@
 						    </select>
 					    </div>
 					    <div class="input-group">
-					    	<span class="input-group-addon" id="basic-addonM">国债</span>
+					    	<span class="input-group-addon" id="basic-addonM">{{ $clientTitles->M }}</span>
 						    <select class="form-control" name="M" aria-describedby="basic-addonM">
 						    	<option value="">不筛选</option>
 						    	<option value="是">是</option>
@@ -173,7 +173,7 @@
 
 				    <div class="form-group">
 					    <div class="input-group">
-					    	<span class="input-group-addon" id="basic-addonN">货币冲量</span>
+					    	<span class="input-group-addon" id="basic-addonN">{{ $clientTitles->N }}</span>
 						    <select class="form-control" name="N" aria-describedby="basic-addonN">
 						    	<option value="">不筛选</option>
 						    	<option value="是">是</option>
@@ -181,7 +181,7 @@
 						    </select>
 					    </div>
 					    <div class="input-group">
-					    	<span class="input-group-addon" id="basic-addonO">双鑫</span>
+					    	<span class="input-group-addon" id="basic-addonO">{{ $clientTitles->O }}</span>
 						    <select class="form-control" name="O" aria-describedby="basic-addonO">
 						    	<option value="">不筛选</option>
 						    	<option value="是">是</option>
@@ -189,7 +189,7 @@
 						    </select>
 					    </div>
 					    <div class="input-group">
-					    	<span class="input-group-addon" id="basic-addonP">固收</span>
+					    	<span class="input-group-addon" id="basic-addonP">{{ $clientTitles->P }}</span>
 						    <select class="form-control" name="P" aria-describedby="basic-addonP">
 						    	<option value="">不筛选</option>
 						    	<option value="是">是</option>
@@ -197,7 +197,7 @@
 						    </select>
 					    </div>
 					    <div class="input-group">
-					    	<span class="input-group-addon" id="basic-addonQ">权益</span>
+					    	<span class="input-group-addon" id="basic-addonQ">{{ $clientTitles->Q }}</span>
 						    <select class="form-control" name="Q" aria-describedby="basic-addonQ">
 						    	<option value="">不筛选</option>
 						    	<option value="是">是</option>
@@ -205,7 +205,7 @@
 						    </select>
 					    </div>
 					    <div class="input-group">
-					    	<span class="input-group-addon" id="basic-addonR">基金定投</span>
+					    	<span class="input-group-addon" id="basic-addonR">{{ $clientTitles->R }}</span>
 						    <select class="form-control" name="R" aria-describedby="basic-addonR">
 						    	<option value="">不筛选</option>
 						    	<option value="是">是</option>
@@ -216,7 +216,7 @@
 
 				    <div class="form-group">
 					    <div class="input-group">
-					    	<span class="input-group-addon" id="basic-addonS">分级基金</span>
+					    	<span class="input-group-addon" id="basic-addonS">{{ $clientTitles->S }}</span>
 						    <select class="form-control" name="S" aria-describedby="basic-addonS">
 						    	<option value="">不筛选</option>
 						    	<option value="是">是</option>
@@ -224,7 +224,7 @@
 						    </select>
 					    </div>
 				    	<div class="input-group">
-					    	<span class="input-group-addon" id="basic-addonT">信e融</span>
+					    	<span class="input-group-addon" id="basic-addonT">{{ $clientTitles->T }}</span>
 						    <select class="form-control" name="T" aria-describedby="basic-addonT">
 						    	<option value="">不筛选</option>
 						    	<option value="是">是</option>
@@ -232,7 +232,7 @@
 						    </select>
 					    </div>
 					    <div class="input-group">
-					    	<span class="input-group-addon" id="basic-addonU">双融</span>
+					    	<span class="input-group-addon" id="basic-addonU">{{ $clientTitles->U }}</span>
 						    <select class="form-control" name="U" aria-describedby="basic-addonU">
 						    	<option value="">不筛选</option>
 						    	<option value="是">是</option>
@@ -240,7 +240,7 @@
 						    </select>
 					    </div>
 					    <div class="input-group">
-					    	<span class="input-group-addon" id="basic-addonV">深港通</span>
+					    	<span class="input-group-addon" id="basic-addonV">{{ $clientTitles->V }}</span>
 						    <select class="form-control" name="V" aria-describedby="basic-addonV">
 						    	<option value="">不筛选</option>
 						    	<option value="是">是</option>
@@ -248,7 +248,7 @@
 						    </select>
 					    </div>
 					    <div class="input-group">
-					    	<span class="input-group-addon" id="basic-addonW">沪港通</span>
+					    	<span class="input-group-addon" id="basic-addonW">{{ $clientTitles->W }}</span>
 						    <select class="form-control" name="W" aria-describedby="basic-addonW">
 						    	<option value="">不筛选</option>
 						    	<option value="是">是</option>
@@ -260,7 +260,7 @@
 
 				    <div class="form-group">
 					    <div class="input-group">
-						    <span class="input-group-addon" id="basic-addonX">潜在资产</span>
+						    <span class="input-group-addon" id="basic-addonX">{{ $clientTitles->X }}</span>
 						    <input type="number" name="Xs" class="form-control" placeholder=">" 
 						    aria-describedby="basic-addonX" step="any" style="width:110px;"
 						    value="{!! isset($request)?$request->get('Xs'):'' !!}">
@@ -269,7 +269,7 @@
 					    </div>
 
 					    <div class="input-group">
-						    <span class="input-group-addon" id="basic-addonY">8月日均资金余额(万)</span>
+						    <span class="input-group-addon" id="basic-addonY">{{ $clientTitles->Y }}</span>
 						    <input type="number" name="Ys" class="form-control" placeholder=">" 
 						    aria-describedby="basic-addonY" step="any" style="width:110px;"
 						    value="{!! isset($request)?$request->get('Ys'):'' !!}">
@@ -278,7 +278,7 @@
 					    </div>
 
 					    <div class="input-group">
-						    <span class="input-group-addon" id="basic-addonZ">8月日均资产(万)</span>
+						    <span class="input-group-addon" id="basic-addonZ">{{ $clientTitles->Z }}</span>
 						    <input type="number" name="Zs" class="form-control" placeholder=">" 
 						    aria-describedby="basic-addonZ" step="any" style="width:110px;"
 						    value="{!! isset($request)?$request->get('Zs'):'' !!}">
@@ -289,7 +289,7 @@
 
 				    <div class="form-group">
 					    <div class="input-group">
-						    <span class="input-group-addon" id="basic-addonAA">当年创收(元)</span>
+						    <span class="input-group-addon" id="basic-addonAA">{{ $clientTitles->AA }}</span>
 						    <input type="number" name="AAs" class="form-control" placeholder=">" 
 						    aria-describedby="basic-addonAA" step="any" value="{!! isset($request)?$request->get('AAs'):'' !!}">
 					    </div>
@@ -297,7 +297,7 @@
 					    value="{!! isset($request)?$request->get('AAe'):'' !!}">
 
 					    <div class="input-group">
-						    <span class="input-group-addon" id="basic-addonAB">当年交易量(万)</span>
+						    <span class="input-group-addon" id="basic-addonAB">{{ $clientTitles->AB }}</span>
 						    <input type="number" name="ABs" class="form-control" placeholder=">" 
 						    aria-describedby="basic-addonAB" step="any" value="{!! isset($request)?$request->get('ABs'):'' !!}">
 					    </div>
@@ -307,7 +307,7 @@
 
 				    <div class="form-group">
 					    <div class="input-group">
-						    <span class="input-group-addon" id="basic-addonAC">周转率</span>
+						    <span class="input-group-addon" id="basic-addonAC">{{ $clientTitles->AC }}</span>
 						    <input type="number" name="ACs" class="form-control" placeholder=">" 
 						    aria-describedby="basic-addonAC" step="any" value="{!! isset($request)?$request->get('ACs'):'' !!}">
 					    </div>
@@ -315,7 +315,7 @@
 					    value="{!! isset($request)?$request->get('ACe'):'' !!}">
 
 					    <div class="input-group">
-						    <span class="input-group-addon" id="basic-addonAD">非现金资产仓位</span>
+						    <span class="input-group-addon" id="basic-addonAD">{{ $clientTitles->AD }}</span>
 						    <input type="number" name="ADs" class="form-control" placeholder=">" 
 						    aria-describedby="basic-addonAD" step="any" value="{!! isset($request)?$request->get('ADs'):'' !!}">
 					    </div>
