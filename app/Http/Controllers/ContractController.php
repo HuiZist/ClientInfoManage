@@ -116,6 +116,7 @@ class ContractController extends Controller
     public function select($contracts,$request){
         $request->get('A')!==null && $contracts = $contracts->where('A','like','%'.$request->get('A').'%');
         $request->get('B')!==null && $contracts = $contracts->where('B','like','%'.$request->get('B').'%');
+        $request->get('E')!==null && $contracts = $contracts->where('E','like','%'.$request->get('E').'%');
         $request->get('F')!==null && $contracts = $contracts->where('F','like','%'.$request->get('F').'%');
         $request->get('G')!==null && $contracts = $contracts->where('G','like','%'.$request->get('G').'%');
         $request->get('H')!==null && $contracts = $contracts->where('H','like','%'.$request->get('H').'%');

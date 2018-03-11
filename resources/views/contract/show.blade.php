@@ -120,8 +120,10 @@
 					</div>
 			    </div>
 			    <div class="form-group" style="margin-bottom: 10px;">
+			    	<input type="text" name="E" class="form-control" placeholder="沟通反馈"
+				    value="{!! isset($request)?$request->get('E'):'' !!}" title="查询非空请输入%">
 				    <div class="input-group">
-						<span class="input-group-addon" id="basic-addon6">潜在/拒绝/不置可否</span>
+						<span class="input-group-addon" id="basic-addon6">潜在/拒绝/不置</span>
 					  	<select class="js-states form-control" name="F" id="id_label_single" 
 						aria-describedby="basic-addon6" style="width: 120px;">
 							<option value="" {!! isset($request) && ($request->get('F') == '')?'selected':'' !!}>不筛选</option>
@@ -141,7 +143,7 @@
 			    	<input type="text" name="operator_name" class="form-control" placeholder="员工" 
 			    	style="width:100px;" value="{!! isset($request)?$request->get('operator_account'):'' !!}">
 			    	<button type="submit" class="btn btn-primary"><i class="fa fa-search">&nbsp;</i>查询</button>
-			    	<a class="btn btn-danger" href="{{ route('contract.show') }}">清空搜索项</a>
+			    	<a class="btn btn-danger" href="{{ route('contract.show') }}">清空</a>
 			    </div>
 			</form>
 			<div class="form-group form-inline" style="margin-bottom:0;">
@@ -209,6 +211,7 @@
     {!! $contracts->appends([
     	'A'=>$request->A,
     	'B'=>$request->B,
+    	'E'=>$request->E,
     	'F'=>$request->F,
     	'G'=>$request->G,
     	'H'=>$request->H,
@@ -232,6 +235,7 @@
 			    <a href="{{ route('contract.linkTc',array(
 			    'A'=>$request->A,
 			    'B'=>$request->B,
+			    'E'=>$request->E,
 			    'F'=>$request->F,
 			    'G'=>$request->G,
 			    'H'=>$request->H,
@@ -258,6 +262,7 @@
 				    <a href="{{ route('contract.linkTc',array(
 				    'A'=>$request->A,
 				    'B'=>$request->B,
+				    'E'=>$request->E,
 				    'F'=>$request->F,
 				    'G'=>$request->G,
 				    'H'=>$request->H,

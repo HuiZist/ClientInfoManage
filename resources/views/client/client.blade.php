@@ -403,6 +403,7 @@
 				{!! $clients->appends([
 			    	'A'=>$requestc->A,
 			    	'B'=>$requestc->B,
+			    	'E'=>$requestc->E,
 			    	'F'=>$requestc->F,
 			    	'G'=>$requestc->G,
 			    	'H'=>$requestc->H,
